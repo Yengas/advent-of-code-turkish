@@ -1,7 +1,7 @@
-Not Quite Lisp
+[Lisp gibi bir şey](http://adventofcode.com/day/1)
 ==============
 
-Santa beyaz bir noel ümit ediyordu fakat, hava durumu aracının "kar" fonksiyonu yıldızlar ile çalışıyor, ve malesef Santa'nın hiç yıldızı kalmadı! NOeli kurtarmak için, 50 yıldız toplamanıza ihtiyacı var.
+Santa beyaz bir Noel ümit ediyordu fakat, hava durumu aracının "kar" fonksiyonu yıldızlar ile çalışıyor, ve malesef Santa'nın hiç yıldızı kalmadı! Noeli kurtarmak için, 50 yıldız toplamanıza ihtiyacı var.
 
 Bilmeceleri çözerek yıldız toplayın. Noel takviminde her gün 2 adet bilmece açılacak. İkinci bilmece, ilk bilmeceyi çözdükten sonra açılacaktır. Her bilmece 1 yıldız kazandırıyor. İyi şanslar!
 
@@ -14,12 +14,12 @@ Parantez açma işareti "(", 1 kat yukarıya gitmesini, ve Parantez kapama işar
 Apartman çok yüksek ve bodrumu çok derin. Hiç bir zaman en küst kata veya bodrumun en dibine ulaşamıyacak.
 
 Örneğin:
-	- "(())" ve "()()" ikiside 0. kat ile sonuçlanır.
-	- "(((" ve "(()(()(" ikiside 3. kat ile sonuçlanır.
-	- "))(((((" de aynı şekilde 3. katda sonuçlanır.
-	- "())" ve "))(" ikiside -1. katda(ilk bodrum katı) sonuçlanır.
-	- ")))" ve ")())())" ikiside -3. katda sonuçlanır.
+- "(())" ve "()()" ikiside 0. kat ile sonuçlanır.
+- "(((" ve "(()(()(" ikiside 3. kat ile sonuçlanır.
+- "))(((((" de aynı şekilde 3. katda sonuçlanır.
+- "())" ve "))(" ikiside -1. katda(ilk bodrum katı) sonuçlanır.
+- ")))" ve ")())())" ikiside -3. katda sonuçlanır.
 
 Part 1
 ----
-Verilen girdideki komutlardan sonra, Santa hangi kat'da olur?
+Verilen girdideki komutlardan sonra, Santa hangi katda olur?
